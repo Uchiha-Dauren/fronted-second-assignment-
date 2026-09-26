@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Task 1 — Card Row | Dauren</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="navbar">
+    <a href="index.html" class="logo">draft<span>.css</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="task1.html" aria-current="page">Card Row</a></li>
+      <li><a href="task2.html">Grid Layout</a></li>
+      <li><a href="task3.html">Gallery</a></li>
+      <li><a href="task4.html">Portfolio</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <span class="tag">TASK 1 — FLEXBOX</span>
+    <h1>Card Row</h1>
+    <p>
+      A three-card row built with <code>display: flex</code>. The cards
+      stretch to equal height, keep a consistent gap between them, and
+      lift slightly on hover.
+    </p>
+    <ul class="checklist">
+      <li>Flex container with three cards (image, title, text, button)</li>
+      <li>Cards appear in a row and share equal height</li>
+      <li>Consistent gap between cards via <code>gap</code></li>
+      <li>Hover effect: lift + shadow</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="card-row">
+      <article class="card sheet">
+        <img src="https://picsum.photos/seed/cardone/600/400" alt="Grid systems illustration">
+        <div class="card-body">
+          <h3>Grid Systems</h3>
+          <p>Structuring a page with rows, columns, and named areas instead of nested floats.</p>
+          <button class="btn" type="button">Read more</button>
+        </div>
+      </article>
+      <article class="card sheet">
+        <img src="https://picsum.photos/seed/cardtwo/600/400" alt="Flexbox alignment illustration">
+        <div class="card-body">
+          <h3>Flexbox Alignment</h3>
+          <p>Centering, spacing, and ordering elements along a single axis without magic numbers.</p>
+          <button class="btn" type="button">Read more</button>
+        </div>
+      </article>
+      <article class="card sheet">
+        <img src="https://picsum.photos/seed/cardthree/600/400" alt="Responsive layout illustration">
+        <div class="card-body">
+          <h3>Responsive Layout</h3>
+          <p>Wrapping and resizing cards gracefully across phone, tablet, and desktop widths.</p>
+          <button class="btn" type="button">Read more</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>Assignment #2 — Advanced CSS (Flexbox &amp; Grid)</span>
+  <span>Astana IT University</span>
+</footer>
+
+</body>
+</html>
